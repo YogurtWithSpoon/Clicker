@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="control__panel">
+        <div class="timer">Осталось времени <span class="seconds">5</span></div>
+        <div class="score hide"></div>
+        <div class="game__setup">
+            <label for="game-time">Время игры, (сек)</label>
+            <input type="number" id="game-time" min="5" step="1" value="5">
+        </div>
+    </div>
+    <div class="field__wrapper">
+        <button class="button__start">Start Game</button>
+        <div class="playfield"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
